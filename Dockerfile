@@ -3,6 +3,6 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 8086
+EXPOSE 8089
 CMD ["node", "app.js"]
 
